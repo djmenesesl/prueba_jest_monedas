@@ -30,5 +30,5 @@ test("One Yen should be 0.0063 british pound", function () {
     const { fromYentoPound } = require('./app.js')
 
     // hago mi comparacion (la prueba)
-    expect(fromYentoPound(500)).toBe(3.125); //1 yen son 0.00625 yen, entonces 500 yen deberian ser = (500 * 0.00625)
+    expect(fromYentoPound(500)).toBe(3.125); //1 yen son 0.00625 pounds, entonces 500 yen deberian ser = (500 * 0.00625)
 })
